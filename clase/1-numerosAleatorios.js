@@ -1,5 +1,6 @@
 
-const argumentos= process.argv;
+const argumentos= process.argv; // argv es un array, trae dos valores uno es donde tenemos node, y segundo valor es el archivo que se ejecuta ahi
+// como no necesitamos esos valores hacemos un slice(2) para saltear esos valores
 const args= argumentos.slice(2);
 
 console.log(args);
