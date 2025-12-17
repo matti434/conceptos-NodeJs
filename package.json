@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon clase/calculadoraUso.mjs",
+    "dev": "nodemon clase/leerArchivo.js",
     "server": "json-server --watch db.json --port 3001"
   },
   "keywords": [
@@ -14,13 +14,14 @@
     "comandos"
   ],
   "author": "Matias Laz",
-  "type":"commonjs",
+  "type": "commonjs",
   "license": "ISC",
   "devDependencies": {
     "json-server": "^1.0.0-beta.3",
     "nodemon": "^3.1.11"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^17.2.3",
     "env-var": "^7.5.0",
     "express": "^5.2.1"
