@@ -1,14 +1,14 @@
 {
   "usuarios": [
     {
-      "id": "1",
-      "nombre": "Ana García",
-      "email": "ana.garcia@email.com",
-      "username": "anagarcia",
-      "password": "password123",
-      "rol": "admin",
-      "activo": true,
-      "fechaRegistro": "2024-01-15"
+      "nombre": "Lopez Tomas",
+      "email": "Tomas.Lopez@email.com",
+      "username": "Tomass",
+      "password": "Tomas012",
+      "rol": "estudiante",
+      "activo": false,
+      "fechaRegistro": "2024-03-05",
+      "id": "1"
     },
     {
       "id": "2",
@@ -41,14 +41,14 @@
       "fechaRegistro": "2024-03-05"
     },
     {
-      "id": "c167",
-      "nombre": "Lopez Tomas",
-      "email": "Tomas.Lopez@email.com",
-      "username": "Tomass",
-      "password": "Tomas012",
+      "nombre": "Lopez Furmy",
+      "email": "Furmy.Lopez@email.com",
+      "username": "Lopez",
+      "password": "Lopez012",
       "rol": "estudiante",
       "activo": false,
-      "fechaRegistro": "2024-03-05"
+      "fechaRegistro": "2024-03-05",
+      "id": "8"
     }
   ],
   "profesores": [
