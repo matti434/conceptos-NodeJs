@@ -1,7 +1,7 @@
 {
   "usuarios": [
     {
-      "id": 1,
+      "id": "1",
       "nombre": "Ana García",
       "email": "ana.garcia@email.com",
       "username": "anagarcia",
@@ -11,7 +11,7 @@
       "fechaRegistro": "2024-01-15"
     },
     {
-      "id": 2,
+      "id": "2",
       "nombre": "Carlos López",
       "email": "carlos.lopez@email.com",
       "username": "carlosl",
@@ -21,7 +21,7 @@
       "fechaRegistro": "2024-02-20"
     },
     {
-      "id": 3,
+      "id": "3",
       "nombre": "María Rodríguez",
       "email": "maria.rodriguez@email.com",
       "username": "mariar",
@@ -31,7 +31,7 @@
       "fechaRegistro": "2023-11-10"
     },
     {
-      "id": 4,
+      "id": "4",
       "nombre": "Pedro Sánchez",
       "email": "pedro.sanchez@email.com",
       "username": "pedros",
@@ -39,12 +39,21 @@
       "rol": "estudiante",
       "activo": false,
       "fechaRegistro": "2024-03-05"
+    },
+    {
+      "id": "c167",
+      "nombre": "Lopez Tomas",
+      "email": "Tomas.Lopez@email.com",
+      "username": "Tomass",
+      "password": "Tomas012",
+      "rol": "estudiante",
+      "activo": false,
+      "fechaRegistro": "2024-03-05"
     }
   ],
-  
   "profesores": [
     {
-      "id": 101,
+      "id": "101",
       "usuarioId": 3,
       "especialidad": "Matemáticas",
       "departamento": "Ciencias Exactas",
@@ -52,12 +61,16 @@
       "titulacion": "Doctor en Matemáticas",
       "salario": 3500,
       "jornada": "completa",
-      "cursosAsignados": ["Cálculo", "Álgebra Lineal", "Estadística"],
+      "cursosAsignados": [
+        "Cálculo",
+        "Álgebra Lineal",
+        "Estadística"
+      ],
       "disponible": true,
       "fechaIngreso": "2018-09-01"
     },
     {
-      "id": 102,
+      "id": "102",
       "usuarioId": 5,
       "nombre": "Laura Martínez",
       "email": "laura.martinez@email.com",
@@ -67,12 +80,15 @@
       "titulacion": "Doctora en Historia",
       "salario": 3800,
       "jornada": "completa",
-      "cursosAsignados": ["Historia Mundial", "Historia del Arte"],
+      "cursosAsignados": [
+        "Historia Mundial",
+        "Historia del Arte"
+      ],
       "disponible": true,
       "fechaIngreso": "2015-03-15"
     },
     {
-      "id": 103,
+      "id": "103",
       "usuarioId": 6,
       "nombre": "Roberto Fernández",
       "email": "roberto.fernandez@email.com",
@@ -82,12 +98,15 @@
       "titulacion": "Ingeniero en Sistemas",
       "salario": 3200,
       "jornada": "parcial",
-      "cursosAsignados": ["Programación Web", "Bases de Datos"],
+      "cursosAsignados": [
+        "Programación Web",
+        "Bases de Datos"
+      ],
       "disponible": true,
       "fechaIngreso": "2020-08-20"
     },
     {
-      "id": 104,
+      "id": "104",
       "usuarioId": 7,
       "nombre": "Sofía Vargas",
       "email": "sofia.vargas@email.com",
@@ -97,7 +116,10 @@
       "titulacion": "Doctora en Literatura",
       "salario": 4000,
       "jornada": "completa",
-      "cursosAsignados": ["Literatura Española", "Literatura Latinoamericana"],
+      "cursosAsignados": [
+        "Literatura Española",
+        "Literatura Latinoamericana"
+      ],
       "disponible": false,
       "fechaIngreso": "2010-01-10"
     }
