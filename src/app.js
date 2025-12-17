@@ -1,6 +1,9 @@
+const {envs} = require("./config/env")
 
 const main = () => {
     console.log("Aqui comenzaremos nuestro servidor");
+    console.log(envs);
+    
 }
 
 // funcion agnostica autocombocada
