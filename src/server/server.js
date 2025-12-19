@@ -1,6 +1,6 @@
 /*Creacion del servidor web*/
-const express = require("express");
-const path = require("path");
+import express from "express";
+import path  from "path";
 
 const startServer = (opcions) => {
   const { port, public_path = "public" } = opcions;
@@ -15,7 +15,7 @@ const startServer = (opcions) => {
   app.use(express.static(public_path)) // contenido estatico que ponemos disponible
 
   //req= peticion res=respuesta
-  app.get('*',(req, res)=>{ 
+  app.get(/.*/,(req, res)=>{ 
     const indexPath = path.join(__dirname + `../../../${public_path}/index.html`)
     res.sendFile(indexPath);
   })
@@ -45,6 +45,4 @@ const startServer = (opcions) => {
   })
 };
 
-module.exports = {
-  startServer,
-};
+export default startServer;

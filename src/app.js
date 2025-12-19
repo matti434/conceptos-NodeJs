@@ -1,6 +1,6 @@
 /*arranque de la aplicacion*/
-const {envs} = require("./config/env") // lee el archivo .env y lo trasforma en JS - Node lee -env y devuelve un objeto JS usable
-const {startServer} = require("./server/server")
+import envs from "./config/env.js" // lee el archivo .env y lo trasforma en JS - Node lee -env y devuelve un objeto JS usable
+import startServer from "./server/server.js"
 
 const main = () => {
     console.log("Aqui comenzaremos nuestro servidor");
