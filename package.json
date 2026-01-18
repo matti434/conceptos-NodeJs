@@ -2,11 +2,13 @@
   "name": "conceptos-nodejs",
   "version": "1.0.0",
   "description": "argumentos,modules,comandos.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js",
-    "server": "json-server --watch db.json --port 3001"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server --watch db.json --port 3001",
+    "backend": "nodemon src/app.js"
   },
   "keywords": [
     "argumentos",
@@ -16,12 +18,18 @@
   "author": "Matias Laz",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
     "json-server": "^1.0.0-beta.3",
-    "nodemon": "^3.1.11"
+    "nodemon": "^3.1.11",
+    "vite": "^5.2.0"
   },
   "dependencies": {
     "dotenv": "^17.2.3",
     "env-var": "^7.5.0",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
