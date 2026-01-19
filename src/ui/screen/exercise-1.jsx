@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import CardExercise from '../components/card-exercise/card-exercise'
+import ExerciseContent from '../components/exercise-content/exercise-content'
 
 function Exercise1() {
   return (
@@ -17,6 +18,8 @@ function Exercise1() {
           ← Volver al inicio
         </button>
       </Link>
+      
+      {/* Card del ejercicio (información) */}
       <CardExercise
         title="Lista de tareas"
         description="Crear un proyecto de backend con los endpoints necesarios para poder agregar una tarea, 
@@ -25,12 +28,19 @@ function Exercise1() {
         Modelar la base de datos necesaria con MongoDB."
         exerciseNumber={1}
         difficulty="easy"
+      />
+
+      {/* Aquí iremos agregando la solución paso a paso */}
+      <ExerciseContent 
+        title="Solución del Ejercicio"
+        variant="solution"
       >
-        <p>Aquí va el contenido específico del ejercicio 1</p>
-        {/* Puedes agregar cualquier contenido aquí: formularios, botones, etc. */}
-      </CardExercise>
+        <p>Vamos a construir la solución paso a paso siguiendo la guía.</p>
+        <p>Empecemos por el Paso 1: Entender qué necesitamos</p>
+      </ExerciseContent>
     </div>
   )
 }
 
 export default Exercise1
+

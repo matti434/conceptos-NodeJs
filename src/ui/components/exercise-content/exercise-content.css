@@ -1,0 +1,80 @@
+.exercise-content {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  overflow: hidden;
+  border: 1px solid #e9ecef;
+}
+
+.exercise-content__header {
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-bottom: 2px solid #dee2e6;
+}
+
+.exercise-content__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.exercise-content__body {
+  padding: 1.5rem;
+}
+
+/* Variantes */
+.exercise-content--solution {
+  border-left: 4px solid #28a745;
+}
+
+.exercise-content--solution .exercise-content__header {
+  background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+  border-bottom-color: #b1dfbb;
+}
+
+.exercise-content--solution .exercise-content__title {
+  color: #155724;
+}
+
+.exercise-content--form {
+  border-left: 4px solid #007bff;
+}
+
+.exercise-content--form .exercise-content__header {
+  background: linear-gradient(135deg, #cce5ff 0%, #b3d9ff 100%);
+  border-bottom-color: #99ccff;
+}
+
+.exercise-content--form .exercise-content__title {
+  color: #004085;
+}
+
+.exercise-content--result {
+  border-left: 4px solid #ffc107;
+}
+
+.exercise-content--result .exercise-content__header {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+  border-bottom-color: #ffd700;
+}
+
+.exercise-content--result .exercise-content__title {
+  color: #856404;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exercise-content__header {
+    padding: 1rem 1.25rem;
+  }
+
+  .exercise-content__title {
+    font-size: 1.25rem;
+  }
+
+  .exercise-content__body {
+    padding: 1.25rem;
+  }
+}
