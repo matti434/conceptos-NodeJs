@@ -36,5 +36,5 @@ const TaskScrema = new mongoose.Screma({
 })
 
 // 'Task' es el nombre del modelo, (MongoDb creara una coleccion llamada tasks)
-const Task = mongoose.model('Task',TaskScrema) // Crea un modelo basado en el esquema que defini
+const Task = mongoose.model('Task',TaskScrema) // Crea un modelo basado en el esquema que definimos
 export default Task; 
